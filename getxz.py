@@ -26,10 +26,8 @@ def send_request():
 def get_pic(title,url,page):
     print('Download:' + title)
     proxies = {
-        #"http": "http://" + proxy,
-        #"https": "http://" + proxy,
-        # "http": proxy,
-        # "https": proxy,
+        #"http": "http://",
+        #"https": "http://"
     }
     os.makedirs('./data/' + str(page) + '/'+ title + '/', exist_ok=True)
     for i in range(1,999):
