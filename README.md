@@ -16,7 +16,9 @@ pip install -r requirements.txt
 ```
 
 **2.运行getxz.py**  
- ```python3 getxz.py```  
+```shell script 
+python3 getxz.py
+```  
 **3.坐等，爬到的文件在当前目录的data目录中**
 
 ## 📢声明：  
