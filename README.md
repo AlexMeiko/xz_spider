@@ -11,7 +11,9 @@ a simple spider which can get girl photo.
 
 **1.安装所需包**  
 
- ```pip install -r requirements.txt```  
+```shell script 
+pip install -r requirements.txt
+```
 
 **2.运行getxz.py**  
  ```python3 getxz.py```  
