@@ -7,6 +7,15 @@ a simple spider which can get girl photo.
 这是一个使用Python编写的爬虫，目前仅在Python3.7上测试过。
 代码可能较不规范。但我会尽量把它写规范的(超大声🤗  
   
+## 环境依赖
+
+
+|Requirement         |
+|--------------------|
+|Python3             |
+|lxml                |
+|fake_useragent      | 
+
 ## 📖使用  
 
 **1.安装所需包**  
