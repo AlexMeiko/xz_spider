@@ -11,10 +11,10 @@ a simple spider which can get girl photo.
 
 **1.安装所需包**  
 
-  ```pip install -r requirements.txt```  
+ ```pip install -r requirements.txt```  
 
 **2.运行getxz.py**  
-  ```python3 getxz.py```  
+ ```python3 getxz.py```  
 **3.坐等，爬到的文件在当前目录的data目录中**
 
 ## 📢声明：  
