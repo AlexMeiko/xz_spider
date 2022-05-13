@@ -30,7 +30,7 @@ def get_pic(title,url,page):
         #"https": "http://"
     }
     os.makedirs('./data/' + str(page) + '/'+ title + '/', exist_ok=True)
-    for i in range(1,999):
+    for i in range(0,999):
         print('Downloading:' + url + '/' + str(i) + '.jpg')
         response = requests.get(url=url + '/' + str(i) + '.jpg' ,headers=request_header(),proxies=proxies) 
         with open('./data/' + str(page)  + '/' + title + '/' + str(i) + '.jpg', 'wb') as f:
