@@ -9,7 +9,6 @@ def request_header():
     return headers
 
 def send_request():
-    open("all_post.txt", 'w').close()
     for i in range(1,2): #爬取页数(开始页,结束页+1)
         print(f'正在抓取第{i}页……')
         response = requests.get(url=f'https://diskgirl.com/imageslist?page={i}', headers=request_header())
