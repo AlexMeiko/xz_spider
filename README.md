@@ -23,12 +23,20 @@ a simple spider which can get girl photo.
 ```shell script 
 pip install -r requirements.txt
 ```
+**2.使用vim等文本编辑器更改脚本内参数**  
 
-**2.运行getxz.py**  
+|变量名            |参数        | 
+|-----------------|-----------| 
+|Threads          |线程数      | 
+|Start_Page       |起始页      | 
+|End_Page         |结束页      | 
+
+
+**3.运行getxz.py**  
 ```shell script 
 python3 getxz.py
 ```  
-**3.坐等，爬到的文件在当前目录的data目录中**
+**4.坐等，爬到的文件在当前目录的data目录中**
 
 ## 📢声明：  
 
