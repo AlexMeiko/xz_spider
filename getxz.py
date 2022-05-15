@@ -4,7 +4,7 @@ from lxml import etree
 from fake_useragent import UserAgent
 from multiprocessing.dummy import Pool as ThreadPool
 
-Threads = 26 #线程数
+Threads = 4 #线程数,建议在6以内,避免给源站造成太大影响,不要超过26,因为高了也没用
 Start_Page = 1 #起始页
 End_Page = 1 #结束页
 
