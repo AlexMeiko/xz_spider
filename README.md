@@ -2,7 +2,7 @@
 
 ## 介绍  
 
-一个简单的写真爬虫，目前已支持多线程   
+一个简单的写真爬虫，目前已支持多进程下载图片   
 a simple spider which can get girl photo.  
 这是一个使用Python编写的爬虫，目前仅在Python3.7上测试过。
 代码可能较不规范。但我会尽量把它写规范的(超大声🤗  
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 |变量名            |对应参数     | 
 |-----------------|-----------| 
-|Threads          |线程数      | 
+|Threads          |进程数      | 
 |Start_Page       |起始页      | 
 |End_Page         |结束页      | 
 
